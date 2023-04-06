@@ -13,7 +13,7 @@ class Config:
     Configuration class for the application.
     """
     # The path to the directory containing the data files.
-    dataset_root_dir: str = "/dhc/groups/bp2021ba1/data"
+    dataset_root_dir: str = "../.."
 
     # The folder name of our dataset
     sonar_folder_name: str = 'SONAR'
